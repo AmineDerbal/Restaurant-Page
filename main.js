@@ -1,0 +1,1 @@
+alert("Maybe it works"),document.getElementById("content").innerHTML="hello";
