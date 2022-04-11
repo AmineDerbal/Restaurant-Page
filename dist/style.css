@@ -1,13 +1,34 @@
 :root{
   --header-background: rgb(33, 162, 160);
+  --copper-crayola: rgb(233, 157, 124);
 }
 
-body{
+body,html{
+  height: 100%;
   margin: 0;
   padding: 0;
+  background-image: url(./images/home-background.jpg);
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
 }
-
+.container{
+  
+  width: 90%;
+  height:90%;
+  border-radius:20px;
+  background-color: var(--copper-crayola);
+  opacity: 0.9;
+  
+}
 .header{
+  top: 0;
+  position: absolute;
+  width: 100%;
   padding: .5rem 0;
   display: flex;
   justify-content:center;
@@ -27,3 +48,42 @@ body{
 .header button:hover{
   background-color: white;
 }
+
+#home-content{
+  margin:2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ padding: 3rem 2rem;
+}
+
+#menu{
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem;
+  
+}
+
+.menu-content{
+ width:35rem;
+ text-align: center;
+ 
+
+}
+
+h3{
+  font-size:1.6rem;
+  line-height:0.7rem;
+}
+.menu-content p{
+  font-size:1.2rem;
+}
+
+
+
+
