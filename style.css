@@ -2,7 +2,12 @@
   --header-background: rgb(33, 162, 160);
   --copper-crayola: rgb(233, 157, 124);
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 
+}
 body,html{
   height: 100%;
   margin: 0;
@@ -15,6 +20,8 @@ body,html{
   display: flex;
   flex-direction: column;
   justify-content:center;
+  text-rendering: optimizeSpeed;
+  line-height: 0.7rem;
 }
 .container{
   
@@ -72,9 +79,7 @@ body,html{
 .menu-content{
  width:35rem;
  text-align: center;
- 
-
-}
+ }
 
 h3{
   font-size:1.6rem;
@@ -82,6 +87,19 @@ h3{
 }
 .menu-content p{
   font-size:1.2rem;
+}
+
+#contact{
+  padding:1.5rem 0;
+  box-sizing: border-box;
+  height:fit-content;
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 
