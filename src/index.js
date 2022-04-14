@@ -1,17 +1,18 @@
 import home from './home';
 import menu from './menu';
 import clear from './clear';
+import contact from './contact';
 
 
 
-let content = document.getElementById('content');
-let header = document.createElement('div');
+const content = document.getElementById('content');
+const header = document.createElement('div');
 
 header.classList.add('header');
 
 content.appendChild(header);
 
-let homeBtn = document.createElement('button');
+const homeBtn = document.createElement('button');
 homeBtn.classList.add('homeBtn');
 homeBtn.textContent = 'Home';
 homeBtn.addEventListener('click', () =>{
@@ -19,7 +20,7 @@ homeBtn.addEventListener('click', () =>{
   home();
 })
 
-let menuBtn = document.createElement('button');
+const menuBtn = document.createElement('button');
 menuBtn.classList.add('menuBtn');
 menuBtn.textContent='Menu';
 menuBtn.addEventListener('click',()=>{
@@ -27,11 +28,12 @@ menuBtn.addEventListener('click',()=>{
   menu();
 })
 
-let contactBtn = document.createElement('button');
+const contactBtn = document.createElement('button');
 contactBtn.classList.add('contactBtn');
 contactBtn.textContent = 'Contact';
 contactBtn.addEventListener('click', ()=>{
   clear();
+  contact();
 })
 
 header.appendChild(homeBtn);
@@ -42,8 +44,8 @@ header.appendChild(contactBtn);
 
 
 
-home();
+contact();
 
-const container = document.querySelector('.container');
+
 
 
