@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&family=Roboto+Serif:wght@200&display=swap');
+
 :root{
   --header-background: rgb(33, 162, 160);
   --copper-crayola: rgb(233, 157, 124);
@@ -21,7 +23,7 @@ body,html{
   flex-direction: column;
   justify-content:center;
   text-rendering: optimizeSpeed;
-  line-height: 0.7rem;
+  line-height: 1rem;
 }
 .container{
   
@@ -100,6 +102,10 @@ h3{
   justify-content: center;
   align-items: center;
   
+}
+
+h1,h2,h3{
+  font-family: 'Fredoka', sans-serif;
 }
 
 
