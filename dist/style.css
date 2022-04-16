@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&family=Roboto+Serif:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&family=Roboto+Serif:wght@200&display=swap');
 
 :root{
   --header-background: rgb(33, 162, 160);
@@ -105,6 +106,10 @@ h3{
 }
 
 h1,h2,h3{
+  font-family: 'Fredoka', sans-serif;
+}
+
+p,adress{
   font-family: 'Fredoka', sans-serif;
 }
 
