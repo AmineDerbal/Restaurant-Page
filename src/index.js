@@ -2,6 +2,7 @@ import home from './home';
 import menu from './menu';
 import clear from './clear';
 import contact from './contact';
+import footer from './footer';
 
 
 
@@ -44,7 +45,8 @@ header.appendChild(contactBtn);
 
 
 
-contact();
+home();
+footer();
 
 
 
