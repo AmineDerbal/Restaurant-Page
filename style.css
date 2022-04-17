@@ -113,6 +113,42 @@ p,adress{
   font-family: 'Fredoka', sans-serif;
 }
 
+.footer{
+   
+  position:absolute;
+ 
+  left: 0;
+  bottom:0;
+  padding:10px 0;
+  
+  font-size: 20px;
+   width:100%;
+   
+  gap: 10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color: rgb(3, 30, 54);
+  
+   
+ 
+}
+.footer span{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  color: aliceblue;
+ 
+  font-size: 20px;
+  
+  
+}
+.rotate-icon{
+  transition: transform 0.3s ease-out;
+}
+.rotate-link:hover .rotate-icon{
+transform: rotate(360deg);
+}
 
 
 
